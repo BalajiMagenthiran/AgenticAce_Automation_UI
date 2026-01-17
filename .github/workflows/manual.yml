@@ -1,0 +1,19 @@
+name: AgenticAce UI Automation (Manual)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: npm install
+      - run: npx playwright install
+      - run: npx cucumber-js --config runner/cucumber.js
