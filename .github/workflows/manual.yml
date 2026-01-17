@@ -17,8 +17,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright (Chromium + deps)
-        run: npx playwright@latest install --with-deps chromium
+      - name: Install Playwright Browsers (Official GitHub Action)
+        uses: microsoft/playwright-github-action@v1
+        with:
+          browsers: chromium
 
       - name: Run Cucumber tests
         run: npx cucumber-js --config runner/cucumber.js
