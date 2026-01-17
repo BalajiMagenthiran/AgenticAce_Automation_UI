@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -17,10 +17,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright Browsers (Official GitHub Action)
-        uses: microsoft/playwright-github-action@v1
-        with:
-          browsers: chromium
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium
 
       - name: Run Cucumber tests
         run: npx cucumber-js --config runner/cucumber.js
