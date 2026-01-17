@@ -29,3 +29,9 @@ Then('user should be logged into application by clicking login button', async fu
 
 });
 
+//invalid credentials 
+
+
+Then('user should click loginbutton', async function () {
+
+});

@@ -1,0 +1,172 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "agenticace-login-page;user-login-with-valid-login-credentials-for-agenticace",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User Login with valid Login Credentials for AgenticAce",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 747554599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "user login with \"pt_user_01@pharmaace.com\" and \"Abcd@123\" for AgenticAce",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5418273699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "user should be logged into application by clicking login button",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1967423400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 260119899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agenticace-login-page;user-login-with-invalid-login-credentials-for-agenticace",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User Login with invalid Login Credentials for AgenticAce",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 545388600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user login with \"pt_user_01@pharmaace\" and \"Abcd@123\" for AgenticAce",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4858678700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should click loginbutton",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 192939300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agenticace-login-page;user-login-with-invalid-login-credentials-for-agenticace",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User Login with invalid Login Credentials for AgenticAce",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 603630900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user login with \"pt_user_01@pharmaace.com\" and \"Ab123\" for AgenticAce",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4595241099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should click loginbutton",
+            "match": {
+              "location": "steps\\Agenticace_login_stepdefiniton.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 209139999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "agenticace-login-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "AgenticAce Login Page",
+    "tags": [],
+    "uri": "features\\agenticAce_login.feature"
+  }
+]

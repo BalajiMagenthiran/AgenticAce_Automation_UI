@@ -7,3 +7,10 @@ Feature: AgenticAce Login Page
             | username                 | password |
             | pt_user_01@pharmaace.com | Abcd@123 |
 
+    Scenario: User Login with invalid Login Credentials for AgenticAce
+        When user login with "<username>" and "<password>" for AgenticAce
+        Then user should click loginbutton
+        Examples:
+            | username                 | password |
+            | pt_user_01@pharmaace     | Abcd@123 |
+            | pt_user_01@pharmaace.com | Ab123    |
