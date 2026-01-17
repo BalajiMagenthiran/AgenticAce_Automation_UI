@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 747554599
+              "duration": 653430199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5418273699
+              "duration": 4665207199
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1967423400
+              "duration": 1696371600
             }
           },
           {
@@ -48,7 +48,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 260119899
+              "duration": 240425499
             }
           }
         ],
@@ -67,20 +67,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 545388600
+              "duration": 594435499
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "user login with \"pt_user_01@pharmaace\" and \"Abcd@123\" for AgenticAce",
+            "name": "user login with \"pt_user_01@pharmaac.com\" and \"Abcd@123\" for AgenticAce",
             "match": {
               "location": "steps\\Agenticace_login_stepdefiniton.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 4858678700
+              "duration": 4676873700
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 338900
+              "duration": 1962793699
             }
           },
           {
@@ -101,7 +101,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 192939300
+              "duration": 184188500
             }
           }
         ],
@@ -120,7 +120,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 603630900
+              "duration": 547109300
             }
           },
           {
@@ -133,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4595241099
+              "duration": 4797205300
             }
           },
           {
@@ -145,8 +145,9 @@
               "location": "steps\\Agenticace_login_stepdefiniton.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 474500
+              "status": "failed",
+              "duration": 5068916600,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//div[text()=\"Invalid credentails\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[text()=\"Invalid credentails\"]')\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\balaji.magenthiran\\AGENTICACE_PLAYWRIGHT\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at Agenticace_login_POM.invalidloginagenticaace (C:\\Users\\balaji.magenthiran\\AGENTICACE_PLAYWRIGHT\\POM\\Agenticace_login_POM.ts:41:11)\n    at async World.<anonymous> (C:\\Users\\balaji.magenthiran\\AGENTICACE_PLAYWRIGHT\\steps\\Agenticace_login_stepdefiniton.ts:36:4)"
             }
           },
           {
@@ -154,7 +155,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 209139999
+              "duration": 265426200
             }
           }
         ],

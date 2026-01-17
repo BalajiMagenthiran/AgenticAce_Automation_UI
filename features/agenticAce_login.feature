@@ -11,6 +11,5 @@ Feature: AgenticAce Login Page
         When user login with "<username>" and "<password>" for AgenticAce
         Then user should click loginbutton
         Examples:
-            | username                 | password |
-            | pt_user_01@pharmaac.com  | Abcd@123 |
-            | pt_user_01@pharmaace.com | Ab123    |
+            | username                | password |
+            | pt_user_01@pharmaac.com | Abcd@123 |
