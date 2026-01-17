@@ -12,5 +12,5 @@ Feature: AgenticAce Login Page
         Then user should click loginbutton
         Examples:
             | username                 | password |
-            | pt_user_01@pharmaace     | Abcd@123 |
+            | pt_user_01@pharmaac.com  | Abcd@123 |
             | pt_user_01@pharmaace.com | Ab123    |
