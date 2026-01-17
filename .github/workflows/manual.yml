@@ -22,3 +22,11 @@ jobs:
 
       - name: Run Cucumber tests
         run: npx cucumber-js --config runner/cucumber.js
+      - name: Generate HTML report
+        run: node reporter/generate-report.js
+
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: reports
